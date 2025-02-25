@@ -13,7 +13,7 @@ def count_characters():
 
 
 def count_bananas():
-    user_input = input("Write any sentence here: ")
+    user_input = input("Write any sentence here to count 🍌🍌🍌: ")
     total_len = len(user_input)
     bananas = "🍌" * total_len  # Repeat the 🍌 emoji based on input length
 
